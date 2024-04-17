@@ -15,20 +15,25 @@
         <div class="row">
             <div class="col-12 d-flex align-items-center">
                 <input type="checkbox" class="btn-check" id="btn-check-4" autocomplete="off">
-                <label class="btn" for="btn-check-4"><img src="/images/grid.png" alt="" srcset="" class="icons me-3">All</label>
-    
+                <label class="btn" for="btn-check-4"><img src="/images/grid.png" alt="" srcset=""
+                        class="icons me-3">All</label>
+
                 <input type="checkbox" class="btn-check" id="btn-check-5" checked autocomplete="off">
-                <label class="btn" for="btn-check-5"><img src="/images/clothes-hanger.png" alt="" srcset="" class="icons me-3">Clothing</label>
-    
+                <label class="btn" for="btn-check-5"><img src="/images/clothes-hanger.png" alt="" srcset=""
+                        class="icons me-3">Clothing</label>
+
                 <input type="checkbox" class="btn-check" id="btn-check-6" autocomplete="off" disabled>
-                <label class="btn" for="btn-check-6"><img src="/images/ceiling.png" alt="" srcset="" class="icons me-3">Appliances</label>
-    
+                <label class="btn" for="btn-check-6"><img src="/images/ceiling.png" alt="" srcset=""
+                        class="icons me-3">Appliances</label>
+
                 <input type="checkbox" class="btn-check" id="btn-check-7" autocomplete="off" disabled>
-                <label class="btn" for="btn-check-7"><img src="/images/open-book.png" alt="" srcset="" class="icons me-3">Books</label>
-    
+                <label class="btn" for="btn-check-7"><img src="/images/open-book.png" alt="" srcset=""
+                        class="icons me-3">Books</label>
+
                 <input type="checkbox" class="btn-check" id="btn-check-8" autocomplete="off" disabled>
-                <label class="btn" for="btn-check-8"><img src="/images/furnitures.png" alt="" srcset="" class="icons me-3">Furniture</label>
-    
+                <label class="btn" for="btn-check-8"><img src="/images/furnitures.png" alt="" srcset=""
+                        class="icons me-3">Furniture</label>
+
                 <div class="input-group ms-auto" style="width: 400px;"> <!-- Adjust the width as needed -->
                     <span class="input-group-text"><img src="/images/search.png" alt="" srcset="" class="icons"></span>
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -36,7 +41,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 col-lg-3">
@@ -44,7 +49,7 @@
                     <img src="/images/Rectangle_7.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><img src="/images/maps-and-flags.png" alt="" srcset="" class="icons me-3">
-                            Metro Manila, Philippines</p>
+                            De La Salle University Dasmarinas</p>
                         <p class="card-text"><img src="/images/user.png" alt="" srcset="" class="icons me-3"> Bob</p>
                         <p class="card-text"><img src="/images/call.png" alt="" srcset="" class="icons me-3">
                             09123456789</p>
@@ -55,7 +60,56 @@
                             <div>
                                 <img src="/images/tshirt.png" alt="" srcset="" class="icons me-3"> Clothing
                             </div>
-                            <button type="button" class="btn btn-outline-success">Claim</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Claim
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Pre Loved Stussy
+                                                Clothing</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15462.937781057812!2d120.9574508!3d14.3268518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d5b4b36ecb49%3A0xcdbf0315cce20e2a!2sDe%20La%20Salle%20University%20%E2%80%93%20Dasmari%C3%B1as!5e0!3m2!1sen!2sph!4v1713375371769!5m2!1sen!2sph"
+                                                width="450" height="450" style="border:0;" allowfullscreen=""
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            <p class="card-text"><img src="/images/maps-and-flags.png" alt="" srcset=""
+                                                    class="icons me-3">
+                                                Metro Manila, Philippines</p>
+                                            <p class="card-text"><img src="/images/user.png" alt="" srcset=""
+                                                    class="icons me-3"> Bob</p>
+                                            <p class="card-text"><img src="/images/call.png" alt="" srcset=""
+                                                    class="icons me-3">
+                                                09123456789</p>
+                                            <p class="card-text"><img src="/images/email.png" alt="" srcset=""
+                                                    class="icons me-3">
+                                                Bob@gmail.com</p>
+                                            <p class="card-text"><img src="/images/clothes-hanger.png" alt="" srcset=""
+                                                    class="icons me-3">
+                                                Clothing</p>
+                                            <p class="card-text"><img src="/images/question.png" alt="" srcset=""
+                                                    class="icons me-3">
+                                                The shirt was one of my favorite however it has already outgrown me hopefully someone can put it to good use, its a size medium in US</p>
+
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Avail</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

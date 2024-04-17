@@ -1,0 +1,26 @@
+.pfp{
+    width: 300px !important;
+    height: 300px !important;
+}
+
+#hero{
+    font-size: 80px;
+}
+
+.text{
+    font-size: 24px;
+}
+
+#values{ 
+        background-image: url('/images/ourValues.webp');
+        background-size: cover;
+        background-position: center;
+        padding: 250px 0;
+}
+
+#join{ 
+    background-image: url('/images/join.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
