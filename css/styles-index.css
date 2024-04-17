@@ -56,7 +56,7 @@ h1 {
     background-color: #ffffff;
     border-color: #ffffff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .asset-image {
@@ -68,16 +68,55 @@ h1 {
 #join{ 
     background-image: url(/images/asset-image4.png);
     background-size: cover;
+    height: 85vh;
     background-position: center;
     padding: 100px 0;
 }
 
 #join h1 {
+    padding-top: 10vh;
     color: #A8DCA6 !important;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 5);
 }
 
 #join p {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     color: #E4FDE2;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 5);
+}
+
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 40px 0;
+}
+.bottom {
+    background-color: #00321F;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #E4FDE2;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #e4fde27b;
+}
+
+.codebrew-logo {
+    height: 4vh;
 }
