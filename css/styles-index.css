@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.site-navbar {
+    background-color: #00000050;
+    height: 9vh !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.site-navbar, #main-2, #main-3, #join {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.img-logo {
+    padding-top: 5px;
+    width: 15rem;
+}
+
+.main-logo {
+    color: #ffffff !important;
+    font-size: 30px;
+}
+
+.main-con {
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+#main {
+    padding-top: 200px;
+}
+
+#main-2, #main-3 {
+    padding-top: 150px;
+}
+
 h1 {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .display-main-2 {
@@ -7,7 +47,7 @@ h1 {
 }
 
 .lead {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .btn-success {
@@ -15,4 +55,68 @@ h1 {
     color: #000000;
     background-color: #ffffff;
     border-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 18px;
+}
+
+.asset-image {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+#join{ 
+    background-image: url(/images/asset-image4.png);
+    background-size: cover;
+    height: 85vh;
+    background-position: center;
+    padding: 100px 0;
+}
+
+#join h1 {
+    padding-top: 10vh;
+    color: #A8DCA6 !important;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 5);
+}
+
+#join p {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #E4FDE2;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 5);
+}
+
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 40px 0;
+}
+.bottom {
+    background-color: #00321F;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #E4FDE2;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #e4fde27b;
+}
+
+.codebrew-logo {
+    height: 4vh;
 }
