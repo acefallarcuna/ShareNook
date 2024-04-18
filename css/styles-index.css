@@ -79,7 +79,7 @@ h1 {
 }
 
 #join{ 
-    background-image: url(/images/asset-image4.png);
+    background-image: url(../images/asset-image4.png);
     background-size: cover;
     height: 90vh;
     background-position: center;
