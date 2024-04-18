@@ -9,5 +9,5 @@ function hidePostItem() {
     postCont.classList.add("addItemhidden");
 }
 function redirect(){
-    window.location.href = "/listings.html";
+    window.location.href = "listings.html";
 }
