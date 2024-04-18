@@ -8,20 +8,64 @@ body {
   font-family: Poppins;
 }
 
-.icons{
-    width: 25px;
-    height: 25px;
+.search {
+  box-shadow: none !important;
 }
 
-.con-list {
-  padding-top: 5rem;
+.checkboks {
+  box-shadow: none !important;
 }
-
-.form-con {
+.addItemhidden{
+  display: none !important;
+}
+.addItemButt{
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 36.7px;
+  transition: 0.3s;
+}
+.addItemButt:hover{
+  background-color: #2A4E2D;
+  color: white;
+}
+.main-con {
+  background-color: #ffffff;
+  border-radius: 8px;
   padding-left: 5rem;
   padding-right: 5rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.display-main-1 {
+  color: #2A4E2D;
+  padding-bottom: 2vh;
+}
+
+.lead {
+  padding-bottom: 2vh;
+}
+
+label {
+  color: #2A4E2D;
+  font-weight: bold;
+}
+
+input, textarea {
+  box-shadow: 0px 0px 5px .5px rgba(0, 0, 0, 0.5);
+  
+}
+
+.btn-con {
+  padding-top: 2vh;
+  justify-content: center;
+}
+
+.btn-con p {
+  color: #2A4E2D ;
 }
 
 .btn-confirm {
@@ -41,17 +85,14 @@ body {
   border-radius: 8px;
 }
 
+.icons{
+    width: 25px;
+    height: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.con-list {
+  padding-top: 5rem;
+}
 
 a:hover{
     text-decoration:none;

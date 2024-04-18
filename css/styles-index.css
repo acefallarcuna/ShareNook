@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family: Poppins;
+    font-family: Poppins !important;
     background-color: #DBEBD9;
     background-image: url(/images/main-bg3.png);
     background-size: 100%;
@@ -56,6 +56,7 @@ h1 {
 
 .display-main-2 {
     color: #2a4e2d;
+    font-weight: bold;
 }
 
 .lead {
@@ -68,7 +69,7 @@ h1 {
     background-color: #ffffff;
     border-color: #ffffff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 18px;
+    border-radius: 8px;
 }
 
 .asset-image {
@@ -472,4 +473,3 @@ a:hover{
         .sticky-wrapper .shrink {
           padding-top: 30px !important;
           padding-bottom: 30px !important; } }
-  
