@@ -54,27 +54,27 @@
         <div class="row">
             <div class="col-12 d-flex align-items-center">
                 <input type="checkbox" class="btn-check" id="btn-check-4" autocomplete="off">
-                <label class="btn" for="btn-check-4"><img src="/images/grid.png" alt="" srcset=""
+                <label class="btn" for="btn-check-4"><img src="images/grid.png" alt="" srcset=""
                         class="icons me-3">All</label>
 
                 <input type="checkbox" class="btn-check" id="btn-check-5" checked autocomplete="off">
-                <label class="btn" for="btn-check-5"><img src="/images/clothes-hanger.png" alt="" srcset=""
+                <label class="btn" for="btn-check-5"><img src="images/clothes-hanger.png" alt="" srcset=""
                         class="icons me-3">Clothing</label>
 
                 <input type="checkbox" class="btn-check" id="btn-check-6" autocomplete="off" disabled>
-                <label class="btn" for="btn-check-6"><img src="/images/ceiling.png" alt="" srcset=""
+                <label class="btn" for="btn-check-6"><img src="images/ceiling.png" alt="" srcset=""
                         class="icons me-3">Appliances</label>
 
                 <input type="checkbox" class="btn-check" id="btn-check-7" autocomplete="off" disabled>
-                <label class="btn" for="btn-check-7"><img src="/images/open-book.png" alt="" srcset=""
+                <label class="btn" for="btn-check-7"><img src="images/open-book.png" alt="" srcset=""
                         class="icons me-3">Books</label>
 
                 <input type="checkbox" class="btn-check" id="btn-check-8" autocomplete="off" disabled>
-                <label class="btn" for="btn-check-8"><img src="/images/furnitures.png" alt="" srcset=""
+                <label class="btn" for="btn-check-8"><img src="images/furnitures.png" alt="" srcset=""
                         class="icons me-3">Furniture</label>
 
                 <div class="input-group ms-auto" style="width: 400px;"> <!-- Adjust the width as needed -->
-                    <span class="input-group-text"><img src="/images/search.png" alt="" srcset="" class="icons"></span>
+                    <span class="input-group-text"><img src="images/search.png" alt="" srcset="" class="icons"></span>
                     <input class="form-control search" type="search" placeholder="Search" aria-label="Search">
                 </div>
                 <div class="addItem">
@@ -421,7 +421,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="/js/listings.js"></script>
+    <!-- <script src="/js/listings.js"></script> -->
+    <script>
+        function showPostItem() {
+            const postCont = document.getElementById("AddItemConttt");
+            
+            postCont.classList.remove("addItemhidden");
+        }
+        function hidePostItem() {
+            const postCont = document.getElementById("AddItemConttt");
+
+            postCont.classList.add("addItemhidden");
+        }
+        function redirect(){
+            window.location.href = "/listings.html";
+        }
+    </script>
 </body>
 
 </html>
