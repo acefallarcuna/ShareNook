@@ -156,7 +156,7 @@ a:hover{
 }
 .site-navbar {
     background-color: #ffffff;
-    height: 9vh !important;
+    height: auto !important;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
