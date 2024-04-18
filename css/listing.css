@@ -490,3 +490,14 @@ a:hover{
       .sticky-wrapper .shrink {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
+
+.premium {
+  background-color: #FFD465;
+  border-radius: 6px;
+}
+
+.btn-premium {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
