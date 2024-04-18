@@ -10,16 +10,20 @@ body {
 
 .search {
   box-shadow: none !important;
+  height: 40px;
 }
 
 .checkboks {
   box-shadow: none !important;
 }
+.btnfilters-selected{
+  background-color: #000;
+}
 .addItemhidden{
   display: none !important;
 }
 .addItemButt{
-  background-color: white;
+  background-color: rgb(233, 233, 233);
   outline: none;
   border: none;
   border-radius: 5px;
@@ -58,7 +62,9 @@ input, textarea {
   box-shadow: 0px 0px 5px .5px rgba(0, 0, 0, 0.5);
   
 }
-
+.btn{
+  height: auto;
+}
 .btn-con {
   padding-top: 2vh;
   justify-content: center;
@@ -130,7 +136,16 @@ a:hover{
 .codebrew-logo {
     height: 4vh;
 }
-
+.carder{
+  position: relative;
+}
+.crowners{
+  height: 150px;
+  position: absolute;
+  top: -80px;
+  left: 225px;
+  z-index: 100;
+}
 .site-navbar {
     background-color: #ffffff;
     height: 9vh !important;
@@ -151,7 +166,18 @@ a:hover{
     color: #ffffff !important;
     font-size: 30px;
 }
-
+.filterz{
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filterz label{
+  margin-bottom: 0px;
+}
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
