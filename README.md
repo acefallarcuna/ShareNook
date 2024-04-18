@@ -77,8 +77,6 @@ Share resources, sustainably.
 ShareNook is your neighborhood's digital hub for sustainable living. Seamlessly connecting neighbors, ShareNook empowers communities to share resources, reduce waste, and foster a culture of collaboration. From borrowing tools for DIY projects to swapping books and household items, ShareNook brings neighbors together to promote responsible consumption and strengthen community bonds. ShareNook utilizes the Google Maps API to help users easily locate nearby resources available for sharing, promoting responsible consumption and supporting Sustainable Development Goal 12: Ensure sustainable consumption and production pattern
  ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [Bootstrap](https://getbootstrap.com)
 - [JavaScript](https://devdocs.io/javascript/)
 - [JQuery](https://api.jquery.com)
