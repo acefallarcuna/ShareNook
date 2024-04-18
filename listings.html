@@ -85,6 +85,85 @@
     </div>
 
     <div class="container">
+        <div class="container con-list addItemhidden AddItemConttt" id="AddItemConttt">
+            <div class="main-con">
+                <section id="main">
+                    <div class="display-con">
+                        <div class="row">
+                            <div class="col-12 col-md-10">
+                                <h1 class="display-main-1">Sharing is caring.</h1>
+                                <p class="lead">Start by filling out the form below.</p>
+                            </div>
+                            <div class="col-12 col-md-2"></div>
+                        </div>
+                    </div>
+                </section>
+    
+                <form>
+                    <div class="row">
+                        <div class="form-group col-12 col-md-6">
+                            <label for="item-name">Item Name</label>
+                            <input id="item-name" name="item-name" placeholder="Enter brand/product type..." type="text"
+                                required="required" class="form-control">
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="item-name">Address</label>
+                            <input id="item-name" name="address" placeholder="Enter address..." type="text"
+                                required="required" class="form-control">
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="item-name">Contact</label>
+                            <input id="item-name" name="contact" placeholder="Enter contact..." type="text"
+                                required="required" class="form-control">
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <div class="dropdown">
+                                <label for="text-reason">Category</label>
+                                <br>
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Select one...
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Clothing</a></li>
+                                    <li><a class="dropdown-item" href="#">Appliances</a></li>
+                                    <li><a class="dropdown-item" href="#">Books</a></li>
+                                    <li><a class="dropdown-item" href="#">Furnitures</a></li>
+                                    <li><a class="dropdown-item" href="#">Others</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="text-reason">Reason for donation</label>
+                            <textarea id="text-reason" name="text-reason" cols="40" rows="3" required="required"
+                                class="form-control"></textarea>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label class="form-label" for="customFile">Photo of item</label>
+                            <input type="file" class="form-control" id="customFile" />
+                        </div>
+    
+                        <div class="btn-con">
+                            <div class="row">
+                                <div class="form-group col-12 d-flex justify-content-center align-items-center">
+    
+                                    <p><input type="checkbox" class="checkboks"> I hereby certify that all details are true
+                                        and correct.</p>
+                                </div>
+                                <div class="form-group col-12 d-flex justify-content-center align-items-center">
+                                    <div class="form-group">
+                                        <button name="submit" type="submit" class="btn btn-confirm">Confirm and
+                                            post</button>
+                                        <button name="cancel" class="btn btn-cancel"
+                                            onclick="hidePostItem()">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card carder" style="width: 20rem;">
@@ -320,86 +399,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container con-list addItemhidden" id="AddItemConttt">
-        <div class="main-con">
-            <section id="main">
-                <div class="display-con">
-                    <div class="row">
-                        <div class="col-12 col-md-10">
-                            <h1 class="display-main-1">Sharing is caring.</h1>
-                            <p class="lead">Start by filling out the form below.</p>
-                        </div>
-                        <div class="col-12 col-md-2"></div>
-                    </div>
-                </div>
-            </section>
-
-            <form>
-                <div class="row">
-                    <div class="form-group col-12 col-md-6">
-                        <label for="item-name">Item Name</label>
-                        <input id="item-name" name="item-name" placeholder="Enter brand/product type..." type="text"
-                            required="required" class="form-control">
-                    </div>
-                    <div class="form-group col-12 col-md-6">
-                        <label for="item-name">Address</label>
-                        <input id="item-name" name="address" placeholder="Enter address..." type="text"
-                            required="required" class="form-control">
-                    </div>
-                    <div class="form-group col-12 col-md-6">
-                        <label for="item-name">Contact</label>
-                        <input id="item-name" name="contact" placeholder="Enter contact..." type="text"
-                            required="required" class="form-control">
-                    </div>
-                    <div class="form-group col-12 col-md-6">
-                        <div class="dropdown">
-                            <label for="text-reason">Category</label>
-                            <br>
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Select one...
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Clothing</a></li>
-                                <li><a class="dropdown-item" href="#">Appliances</a></li>
-                                <li><a class="dropdown-item" href="#">Books</a></li>
-                                <li><a class="dropdown-item" href="#">Furnitures</a></li>
-                                <li><a class="dropdown-item" href="#">Others</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 col-md-6">
-                        <label for="text-reason">Reason for donation</label>
-                        <textarea id="text-reason" name="text-reason" cols="40" rows="3" required="required"
-                            class="form-control"></textarea>
-                    </div>
-                    <div class="form-group col-12 col-md-6">
-                        <label class="form-label" for="customFile">Photo of item</label>
-                        <input type="file" class="form-control" id="customFile" />
-                    </div>
-
-                    <div class="btn-con">
-                        <div class="row">
-                            <div class="form-group col-12 d-flex justify-content-center align-items-center">
-
-                                <p><input type="checkbox" class="checkboks"> I hereby certify that all details are true
-                                    and correct.</p>
-                            </div>
-                            <div class="form-group col-12 d-flex justify-content-center align-items-center">
-                                <div class="form-group">
-                                    <button name="submit" type="submit" class="btn btn-confirm">Confirm and
-                                        post</button>
-                                    <button name="cancel" class="btn btn-cancel"
-                                        onclick="hidePostItem()">Cancel</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
         </div>
     </div>
 
