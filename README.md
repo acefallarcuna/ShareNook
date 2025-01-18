@@ -93,9 +93,6 @@ Ezekiel Fallarcuna - [@acefallarcuna](https://twitter.com/acefallarcuna) - acefa
 Project Link: [https://github.com/acefallarcuna/ShareNook](https://github.com/acefallarcuna/ShareNook)
  ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-
 - [makeread.me](https://github.com/ShaanCoding/ReadME-Generator)
 - [othneildrew](https://github.com/othneildrew/Best-README-Template)
 - [rj](https://github.com/rjcepe)
